@@ -1,6 +1,6 @@
 node default {
 }
 
-node 'apha.empresa.corp' {
+node 'apha.meuintelbras.local' {
     include role::master_server
 }
