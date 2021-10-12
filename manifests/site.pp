@@ -1,7 +1,6 @@
 node default {
-  file { '/root/README':
-    ensure  => file,
-    content => 'This is a reame',
-    owner   => 'root',
-  }
+}
+
+node 'agent.empresa.corp' {
+    include role::master_server
 }
