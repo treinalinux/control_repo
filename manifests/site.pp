@@ -1,6 +1,6 @@
 node default {
 }
 
-node 'agent.empresa.corp' {
+node 'apha.empresa.corp' {
     include role::master_server
 }
